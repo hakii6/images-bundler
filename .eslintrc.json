@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "import/extensions": [
+      0,
+      {
+        "js": "always"
+      }
+    ]
+  }
+}

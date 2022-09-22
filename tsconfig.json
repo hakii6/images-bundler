@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "composite": true,
+    "target": "es2021",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2021"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "baseUrl": "./src"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "types/*.d.ts"
+  ],
+  "ts-node": {
+    "esm": true,
+    "files": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
